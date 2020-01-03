@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dvdstyler format="4" template="Basic\blue.dvdt" outputDir="C:\Users\ANNE\Ed. Edd n Eddy's Big Picture Show DVD (Redo" isoFile="E:\Ed. Edd n Eddy's Big Picture Show DVD GITHUB EDITION" name="Ed Edd n Eddy's Big Picture Show" resolution="1" capacity="2" jumppad="1" videoFormat="11" audioFormat="3" aspectRatio="2" videoBitrate="4205">
+  <colours colour0="#00356a" colour1="#aae3ff" colour2="#004080"/>
+  <!--************** VMGM **************-->
+  <vmgm>
+    <fpc>jump titleset 4 title 1;</fpc>
+    <menus>
+      <video format="ntsc" aspect="16:9" widescreen="nopanscan"/>
+      <audio lang="EN"/>
+      <subpicture lang="EN"/>
+      <!--************** MENU 1 **************-->
+      <pgc entry="title">
+        <vob pause="inf">
+          <menu videoFormat="NTSC" aspectRatio="2">
+            <svg width="720" height="405">
+              <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
+              <image width="720" height="405" preserveAspectRatio="xmidymid meet" id="background" xlink:href="Pictures\Snapshot\Snapshot_212.png"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <image x="5%" y="5%" width="90%" height="90%" preserveAspectRatio="xmidymid slice" id="image" style="opacity:1;"/>
+                  <use x="2" y="2" id="shadow" xlink:href="#rect" style="fill:none;filter:url(#shadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="main" style="fill:none;stroke:#ffffff;">
+                    <rect x="5%" y="5%" width="90%" height="90%" rx="5" ry="5" id="rect" style="stroke-width:5;"/>
+                  </g>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <image x="5%" y="5%" width="90%" height="90%" preserveAspectRatio="xmidymid slice" id="image" style="opacity:1;"/>
+                  <use x="2" y="2" id="shadow" xlink:href="#rect" style="fill:none;filter:url(#shadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="main" style="fill:none;stroke:#ffffff;">
+                    <rect x="5%" y="5%" width="90%" height="90%" rx="5" ry="5" id="rect" style="stroke-width:5;"/>
+                  </g>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="52" y="260" width="233" height="105" id="button01" xlink:href="#s_button01"/>
+                <use x="436" y="256" width="233" height="105" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" displayVideoFrame="false">
+              <action tsi="0" pgci="1" playAll="true"/>
+              <filename>frame-v2.xml</filename>
+              <parameter name="stroke" normal="#ffffff" highlighted="#0000ff" selected="#ff0000"/>
+              <parameter name="fill" normal="none" highlighted="none" selected="none"/>
+            </button>
+            <button id="button02" displayVideoFrame="false">
+              <action tsi="0" pgci="0" playAll="true"/>
+              <filename>frame-v2.xml</filename>
+              <parameter name="stroke" normal="#ffffff" highlighted="#0000ff" selected="#ff0000"/>
+              <parameter name="fill" normal="none" highlighted="none" selected="none"/>
+            </button>
+          </menu>
+        </vob>
+      </pgc>
+    </menus>
+  </vmgm>
+  <!--************** TITLESET 1 **************-->
+  <titleset>
+    <menus>
+      <video format="ntsc" aspect="16:9" widescreen="nopanscan"/>
+      <audio lang="EN"/>
+      <subpicture lang="EN"/>
+      <!--************** MENU 1 **************-->
+      <pgc entry="root">
+        <vob pause="inf">
+          <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="-1">
+            <svg width="720" height="405">
+              <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
+              <image width="720" height="405" preserveAspectRatio="none" id="background" xlink:href="Pictures\big_picture_show_poster_by_animated_d2jshbd.png"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient1">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#000000;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient2">
+                      <stop id="st1" style="stop-color:#000000;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient3">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.1;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.7;"/>
+                    </linearGradient>
+                  </defs>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="20" ry="20" id="pill" style="fill:#a8518a;fill-opacity:1;stroke:url(#gradient2) none;stroke-width:2;"/>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="15" ry="15" id="light" style="fill:url(#gradient1) none;"/>
+                  <rect x="6%" y="2%" width="88%" height="46%" rx="10" ry="10" id="reflex" style="fill:url(#gradient3) none;"/>
+                  <text x="50%" y="50%" id="text" xml:space="preserve" style="dominant-baseline:middle;fill:#000000;font-family:DK Buttered Toast;font-size:20;font-style:normal;font-weight:normal;stroke:url(#gradiente2) none;stroke-opacity:0.8;stroke-width:1;text-anchor:middle;">Play Movie</text>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient1">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#000000;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient2">
+                      <stop id="st1" style="stop-color:#000000;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient3">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.1;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.7;"/>
+                    </linearGradient>
+                  </defs>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="20" ry="20" id="pill" style="fill:#a8518a;fill-opacity:1;stroke:url(#gradient2) none;stroke-width:2;"/>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="15" ry="15" id="light" style="fill:url(#gradient1) none;"/>
+                  <rect x="6%" y="2%" width="88%" height="46%" rx="10" ry="10" id="reflex" style="fill:url(#gradient3) none;"/>
+                  <text x="50%" y="50%" id="text" xml:space="preserve" style="dominant-baseline:middle;fill:#000000;font-family:DK Buttered Toast;font-size:20;font-style:normal;font-weight:normal;stroke:url(#gradiente2) none;stroke-opacity:0.8;stroke-width:1;text-anchor:middle;">Scene Selection</text>
+                </svg>
+                <svg id="s_button03">
+                  <defs>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient1">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#000000;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient2">
+                      <stop id="st1" style="stop-color:#000000;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient3">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.1;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.7;"/>
+                    </linearGradient>
+                  </defs>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="20" ry="20" id="pill" style="fill:#a8518a;fill-opacity:1;stroke:url(#gradient2) none;stroke-width:2;"/>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="15" ry="15" id="light" style="fill:url(#gradient1) none;"/>
+                  <rect x="6%" y="2%" width="88%" height="46%" rx="10" ry="10" id="reflex" style="fill:url(#gradient3) none;"/>
+                  <text x="50%" y="50%" id="text" xml:space="preserve" style="dominant-baseline:middle;fill:#000000;font-family:DK Buttered Toast;font-size:20;font-style:normal;font-weight:normal;stroke:url(#gradiente2) none;stroke-opacity:0.8;stroke-width:1;text-anchor:middle;">Extras</text>
+                </svg>
+                <svg id="s_button04">
+                  <defs>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient1">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#000000;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient2">
+                      <stop id="st1" style="stop-color:#000000;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient3">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.1;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.7;"/>
+                    </linearGradient>
+                  </defs>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="20" ry="20" id="pill" style="fill:#a8518a;fill-opacity:1;stroke:url(#gradient2) none;stroke-width:2;"/>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="15" ry="15" id="light" style="fill:url(#gradient1) none;"/>
+                  <rect x="6%" y="2%" width="88%" height="46%" rx="10" ry="10" id="reflex" style="fill:url(#gradient3) none;"/>
+                  <text x="50%" y="50%" id="text" xml:space="preserve" style="dominant-baseline:middle;fill:#000000;font-family:DK Buttered Toast;font-size:20;font-style:normal;font-weight:normal;stroke:url(#gradiente2) none;stroke-opacity:0.8;stroke-width:1;text-anchor:middle;">Seven Seas DVD Menu</text>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="72" y="84" width="113" height="26" id="button01" xlink:href="#s_button01"/>
+                <use x="76" y="138" width="161" height="26" id="button02" xlink:href="#s_button02"/>
+                <use x="72" y="220" width="113" height="26" id="button03" xlink:href="#s_button03"/>
+                <use x="76" y="284" width="216" height="26" id="button04" xlink:href="#s_button04"/>
+              </g>
+            </svg>
+            <button id="button01">
+              <action pgci="9"/>
+              <filename>pill2.xml</filename>
+              <parameter name="ct" normal="#000000" highlighted="#400080" selected="#ffffff"/>
+            </button>
+            <button id="button02">
+              <action tsi="1" pgci="5"/>
+              <filename>pill2.xml</filename>
+              <parameter name="ct" normal="#000000" highlighted="#400080" selected="#ffffff"/>
+            </button>
+            <button id="button03">
+              <action tsi="1" pgci="7"/>
+              <filename>pill2.xml</filename>
+              <parameter name="ct" normal="#000000" highlighted="#400080" selected="#ffffff"/>
+            </button>
+            <button id="button04">
+              <action pgci="1" playAll="true"/>
+              <filename>pill2.xml</filename>
+              <parameter name="ct" normal="#000000" highlighted="#400080" selected="#ffffff"/>
+            </button>
+          </menu>
+        </vob>
+      </pgc>
+      <!--************** MENU 2 **************-->
+      <pgc>
+        <vob pause="inf">
+          <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="-1">
+            <svg width="720" height="405">
+              <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
+              <image width="720" height="405" preserveAspectRatio="none" id="background" xlink:href="Pictures\Snapshot\Snapshot_150.png"/>
+              <defs id="defs">
+                <svg id="s_button01" viewBox="0 0 100 80">
+                  <defs>
+                    <linearGradient x1="50" y1="55" x2="50" y2="80" gradientUnits="userSpaceOnUse" id="gradient">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0;"/>
+                    </linearGradient>
+                  </defs>
+                  <path id="arrow1" style="fill:#000040;" d="M0,15 L60,15 L60,5 C60,0,65,0,67,1 L98,22 C100,24,100,26,98,28 L67,49 C65,50,60,50,60,45 L60,35 L0,35 L6,25 z"/>
+                  <path id="arrow2" style="fill:url(#gradient) none;" d="M0,70 L60,70 L60,60 C60,55,65,55,67,56 L98,77 C98,78,100,79,100,80 L6,80 z"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <clipPath id="cp">
+                      <rect x="5%" y="5%" width="90%" height="72%" rx="20" id="def_frame"/>
+                    </clipPath>
+                    <filter id="frameshadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                    <filter id="textshadowFilter">
+                      <feGaussianBlur stdDeviation="2"/>
+                    </filter>
+                  </defs>
+                  <use xlink:href="#def_frame" style="fill:#101010;stroke:none;"/>
+                  <image x="5%" y="5%" width="90%" height="72%" preserveAspectRatio="xmidymid slice" id="image" xlink:href="Pictures\Snapshot\Snapshot_85.png" style="clip-path:url(#cp);opacity:1;"/>
+                  <use x="2" y="2" id="frameshadow" xlink:href="#rect" style="fill:none;filter:url(#frameshadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="body_rect" style="fill:none;stroke:#ffffff;">
+                    <use id="rect" xlink:href="#def_frame" style="stroke-width:5;"/>
+                  </g>
+                  <use x="2" y="2" id="textshadow" xlink:href="#text" style="fill:#202020;fill-opacity:1;filter:url(#textshadowFilter);visibility:hidden;"/>
+                  <g id="body_text" style="fill:#ff0000;fill-opacity:1;stroke:none;">
+                    <text x="50%" y="83%" id="text" xml:space="preserve" style="dominant-baseline:text-after-edge;font-family:DK Buttered Toast;font-size:15;font-style:normal;font-weight:normal;text-anchor:middle;" transform="translate(0,0)">Disaster at Peach Creek</text>
+                  </g>
+                </svg>
+                <svg id="s_button03">
+                  <defs>
+                    <clipPath id="cp">
+                      <rect x="5%" y="5%" width="90%" height="72%" rx="20" id="def_frame"/>
+                    </clipPath>
+                    <filter id="frameshadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                    <filter id="textshadowFilter">
+                      <feGaussianBlur stdDeviation="2"/>
+                    </filter>
+                  </defs>
+                  <use xlink:href="#def_frame" style="fill:#101010;stroke:none;"/>
+                  <image x="5%" y="5%" width="90%" height="72%" preserveAspectRatio="xmidymid slice" id="image" xlink:href="Pictures\Snapshot\Snapshot_86.png" style="clip-path:url(#cp);opacity:1;"/>
+                  <use x="2" y="2" id="frameshadow" xlink:href="#rect" style="fill:none;filter:url(#frameshadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="body_rect" style="fill:none;stroke:#ffffff;">
+                    <use id="rect" xlink:href="#def_frame" style="stroke-width:5;"/>
+                  </g>
+                  <use x="2" y="2" id="textshadow" xlink:href="#text" style="fill:#202020;fill-opacity:1;filter:url(#textshadowFilter);visibility:hidden;"/>
+                  <g id="body_text" style="fill:#ff0000;fill-opacity:1;stroke:none;">
+                    <text x="50%" y="83%" id="text" xml:space="preserve" style="dominant-baseline:text-after-edge;font-family:DK Buttered Toast;font-size:15;font-style:normal;font-weight:normal;text-anchor:middle;" transform="translate(0,0)">Ed Theft Auto</text>
+                  </g>
+                </svg>
+                <svg id="s_button04">
+                  <defs>
+                    <clipPath id="cp">
+                      <rect x="5%" y="5%" width="90%" height="72%" rx="20" id="def_frame"/>
+                    </clipPath>
+                    <filter id="frameshadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                    <filter id="textshadowFilter">
+                      <feGaussianBlur stdDeviation="2"/>
+                    </filter>
+                  </defs>
+                  <use xlink:href="#def_frame" style="fill:#101010;stroke:none;"/>
+                  <image x="5%" y="5%" width="90%" height="72%" preserveAspectRatio="xmidymid slice" id="image" xlink:href="Pictures\Snapshot\Snapshot_87.png" style="clip-path:url(#cp);opacity:1;"/>
+                  <use x="2" y="2" id="frameshadow" xlink:href="#rect" style="fill:none;filter:url(#frameshadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="body_rect" style="fill:none;stroke:#ffffff;">
+                    <use id="rect" xlink:href="#def_frame" style="stroke-width:5;"/>
+                  </g>
+                  <use x="2" y="2" id="textshadow" xlink:href="#text" style="fill:#202020;fill-opacity:1;filter:url(#textshadowFilter);visibility:hidden;"/>
+                  <g id="body_text" style="fill:#ff0000;fill-opacity:1;stroke:none;">
+                    <text x="50%" y="83%" id="text" xml:space="preserve" style="dominant-baseline:text-after-edge;font-family:DK Buttered Toast;font-size:15;font-style:normal;font-weight:normal;text-anchor:middle;" transform="translate(0,0)">Going to Eddy's Brother</text>
+                  </g>
+                </svg>
+                <svg id="s_button05" viewBox="0 0 128 128">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#home" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:visible;"/>
+                  <g id="main" style="fill:#006680;">
+                    <g id="home" transform="matrix(0.368667,0,0,0.368667,-39.728,-113.974)">
+                      <path d="m374.937,485.157 l0,0 z m0,0 l-95.449,-84.5301 l-95.5039,84.5667 l0,120.841 c0,3.12083,2.52183,5.62434,5.64267,5.62434 l59.6877,0 l0,-52.9824 c0,-3.12085,2.50351,-5.64266,5.62434,-5.64266 l49.0436,0 c3.12081,0,5.62434,2.52183,5.62434,5.64266 l0,52.9824 l59.706,0 c3.12083,0,5.62436,-2.5035,5.62435,-5.62434 l0,-120.878 z m-190.953,0.0366 l0,0 z"/>
+                      <path d="m278.934,354.366 l-135.452,119.937 l14.2684,16.0969 l121.738,-107.802 l121.71,107.802 l14.2407,-16.0969 l-135.425,-119.937 l-0.5264,0.60952 l-0.55411,-0.60952 z"/>
+                      <path d="m183.984,371.631 l34.3376,0 l-0.29922,20.3377 l-34.0383,30.7499 l0,-51.0876 z"/>
+                    </g>
+                  </g>
+                </svg>
+                <svg id="s_button06">
+                  <defs>
+                    <clipPath id="cp">
+                      <rect x="5%" y="5%" width="90%" height="72%" rx="20" id="def_frame"/>
+                    </clipPath>
+                    <filter id="frameshadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                    <filter id="textshadowFilter">
+                      <feGaussianBlur stdDeviation="2"/>
+                    </filter>
+                  </defs>
+                  <use xlink:href="#def_frame" style="fill:#101010;stroke:none;"/>
+                  <image x="5%" y="5%" width="90%" height="72%" preserveAspectRatio="xmidymid slice" id="image" xlink:href="Pictures\Snapshot\Snapshot_88.png" style="clip-path:url(#cp);opacity:1;"/>
+                  <use x="2" y="2" id="frameshadow" xlink:href="#rect" style="fill:none;filter:url(#frameshadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="body_rect" style="fill:none;stroke:#ffffff;">
+                    <use id="rect" xlink:href="#def_frame" style="stroke-width:5;"/>
+                  </g>
+                  <use x="2" y="2" id="textshadow" xlink:href="#text" style="fill:#202020;fill-opacity:1;filter:url(#textshadowFilter);visibility:hidden;"/>
+                  <g id="body_text" style="fill:#ff0000;fill-opacity:1;stroke:none;">
+                    <text x="50%" y="83%" id="text" xml:space="preserve" style="dominant-baseline:text-after-edge;font-family:DK Buttered Toast;font-size:15;font-style:normal;font-weight:normal;text-anchor:middle;" transform="translate(0,0)">Kid's on the prowl</text>
+                  </g>
+                </svg>
+                <svg id="s_button07">
+                  <defs>
+                    <clipPath id="cp">
+                      <rect x="5%" y="5%" width="90%" height="72%" rx="20" id="def_frame"/>
+                    </clipPath>
+                    <filter id="frameshadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                    <filter id="textshadowFilter">
+                      <feGaussianBlur stdDeviation="2"/>
+                    </filter>
+                  </defs>
+                  <use xlink:href="#def_frame" style="fill:#101010;stroke:none;"/>
+                  <image x="5%" y="5%" width="90%" height="72%" preserveAspectRatio="xmidymid slice" id="image" xlink:href="Pictures\Snapshot\Snapshot_89.png" style="clip-path:url(#cp);opacity:1;"/>
+                  <use x="2" y="2" id="frameshadow" xlink:href="#rect" style="fill:none;filter:url(#frameshadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="body_rect" style="fill:none;stroke:#ffffff;">
+                    <use id="rect" xlink:href="#def_frame" style="stroke-width:5;"/>
+                  </g>
+                  <use x="2" y="2" id="textshadow" xlink:href="#text" style="fill:#202020;fill-opacity:1;filter:url(#textshadowFilter);visibility:hidden;"/>
+                  <g id="body_text" style="fill:#ff0000;fill-opacity:1;stroke:none;">
+                    <text x="50%" y="83%" id="text" xml:space="preserve" style="dominant-baseline:text-after-edge;font-family:DK Buttered Toast;font-size:15;font-style:normal;font-weight:normal;text-anchor:middle;" transform="translate(0,0)">The hills are alive</text>
+                  </g>
+                </svg>
+                <svg id="s_button08">
+                  <defs>
+                    <clipPath id="cp">
+                      <rect x="5%" y="5%" width="90%" height="72%" rx="20" id="def_frame"/>
+                    </clipPath>
+                    <filter id="frameshadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                    <filter id="textshadowFilter">
+                      <feGaussianBlur stdDeviation="2"/>
+                    </filter>
+                  </defs>
+                  <use xlink:href="#def_frame" style="fill:#101010;stroke:none;"/>
+                  <image x="5%" y="5%" width="90%" height="72%" preserveAspectRatio="xmidymid slice" id="image" xlink:href="Pictures\Snapshot\Snapshot_90.png" style="clip-path:url(#cp);opacity:1;"/>
+                  <use x="2" y="2" id="frameshadow" xlink:href="#rect" style="fill:none;filter:url(#frameshadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="body_rect" style="fill:none;stroke:#ffffff;">
+                    <use id="rect" xlink:href="#def_frame" style="stroke-width:5;"/>
+                  </g>
+                  <use x="2" y="2" id="textshadow" xlink:href="#text" style="fill:#202020;fill-opacity:1;filter:url(#textshadowFilter);visibility:hidden;"/>
+                  <g id="body_text" style="fill:#ff0000;fill-opacity:1;stroke:none;">
+                    <text x="50%" y="83%" id="text" xml:space="preserve" style="dominant-baseline:text-after-edge;font-family:DK Buttered Toast;font-size:15;font-style:normal;font-weight:normal;text-anchor:middle;" transform="translate(0,0)">Tresspassing at<tbreak/>the Trailer Park</text>
+                  </g>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="588" y="334" width="65" height="66" id="button01" xlink:href="#s_button01"/>
+                <use x="64" y="24" width="188" height="132" id="button02" xlink:href="#s_button02"/>
+                <use x="288" y="22" width="188" height="132" id="button03" xlink:href="#s_button03"/>
+                <use x="500" y="28" width="188" height="132" id="button04" xlink:href="#s_button04"/>
+                <use x="44" y="312" width="75" height="90" id="button05" xlink:href="#s_button05"/>
+                <use x="18" y="166" width="176" height="133" id="button06" xlink:href="#s_button06"/>
+                <use x="268" y="166" width="169" height="137" id="button07" xlink:href="#s_button07"/>
+                <use x="500" y="172" width="155" height="131" id="button08" xlink:href="#s_button08"/>
+              </g>
+            </svg>
+            <button id="button02" defSize="true" displayVideoFrame="false">
+              <action pgci="9"/>
+              <filename>frame-text.xml</filename>
+              <parameter name="stroke" normal="#ffffff" highlighted="#ff0000" selected="#ffff00"/>
+            </button>
+            <button id="button01">
+              <action pgci="4"/>
+              <filename>arrow-mirror-right.xml</filename>
+              <parameter name="ac" normal="#000040" highlighted="#008000" selected="#ffff00"/>
+              <parameter name="rc1" normal="#ffffff" highlighted="#008000" selected="#ffff00"/>
+              <parameter name="rc2" normal="#ffffff" highlighted="#008000" selected="#ffff00"/>
+            </button>
+            <button id="button03" defSize="true" displayVideoFrame="false">
+              <action pgci="9" chapter="1"/>
+              <filename>frame-text.xml</filename>
+              <parameter name="stroke" normal="#ffffff" highlighted="#ff0000" selected="#ffff00"/>
+            </button>
+            <button id="button04" defSize="true" displayVideoFrame="false">
+              <action pgci="9" chapter="2"/>
+              <filename>frame-text.xml</filename>
+              <parameter name="stroke" normal="#ffffff" highlighted="#ff0000" selected="#ffff00"/>
+            </button>
+            <button id="button05">
+              <action pgci="0"/>
+              <filename>home-v2.xml</filename>
+              <parameter name="fill" normal="#006680" highlighted="#0099c0" selected="#ffffff"/>
+            </button>
+            <button id="button06" displayVideoFrame="false">
+              <action pgci="9" chapter="3"/>
+              <filename>frame-text.xml</filename>
+              <parameter name="stroke" normal="#ffffff" highlighted="#ff0000" selected="#ffff00"/>
+            </button>
+            <button id="button07" displayVideoFrame="false">
+              <action pgci="9" chapter="4"/>
+              <filename>frame-text.xml</filename>
+              <parameter name="stroke" normal="#ffffff" highlighted="#ff0000" selected="#ffff00"/>
+            </button>
+            <button id="button08" displayVideoFrame="false">
+              <action pgci="9" chapter="5"/>
+              <filename>frame-text.xml</filename>
+              <parameter name="stroke" normal="#ffffff" highlighted="#ff0000" selected="#ffff00"/>
+            </button>
+          </menu>
+        </vob>
+      </pgc>
+      <!--************** MENU 3 **************-->
+      <pgc>
+        <vob pause="inf">
+          <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="-1">
+            <svg width="720" height="405">
+              <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
+              <image width="720" height="405" preserveAspectRatio="none" id="background" xlink:href="Pictures\Snapshot\Snapshot_150.png"/>
+              <defs id="defs">
+                <svg id="s_button02">
+                  <defs>
+                    <clipPath id="cp">
+                      <rect x="5%" y="5%" width="90%" height="72%" rx="20" id="def_frame"/>
+                    </clipPath>
+                    <filter id="frameshadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                    <filter id="textshadowFilter">
+                      <feGaussianBlur stdDeviation="2"/>
+                    </filter>
+                  </defs>
+                  <use xlink:href="#def_frame" style="fill:#101010;stroke:none;"/>
+                  <image x="5%" y="5%" width="90%" height="72%" preserveAspectRatio="xmidymid slice" id="image" xlink:href="Pictures\Snapshot\Snapshot_91.png" style="clip-path:url(#cp);opacity:1;"/>
+                  <use x="2" y="2" id="frameshadow" xlink:href="#rect" style="fill:none;filter:url(#frameshadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="body_rect" style="fill:none;stroke:#ffffff;">
+                    <use id="rect" xlink:href="#def_frame" style="stroke-width:5;"/>
+                  </g>
+                  <use x="2" y="2" id="textshadow" xlink:href="#text" style="fill:#202020;fill-opacity:1;filter:url(#textshadowFilter);visibility:hidden;"/>
+                  <g id="body_text" style="fill:#ff0000;fill-opacity:1;stroke:none;">
+                    <text x="50%" y="83%" id="text" xml:space="preserve" style="dominant-baseline:text-after-edge;font-family:DK Buttered Toast;font-size:15;font-style:normal;font-weight:normal;text-anchor:middle;" transform="translate(0,0)">Gag o Rama</text>
+                  </g>
+                </svg>
+                <svg id="s_button03">
+                  <defs>
+                    <clipPath id="cp">
+                      <rect x="5%" y="5%" width="90%" height="72%" rx="20" id="def_frame"/>
+                    </clipPath>
+                    <filter id="frameshadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                    <filter id="textshadowFilter">
+                      <feGaussianBlur stdDeviation="2"/>
+                    </filter>
+                  </defs>
+                  <use xlink:href="#def_frame" style="fill:#101010;stroke:none;"/>
+                  <image x="5%" y="5%" width="90%" height="72%" preserveAspectRatio="xmidymid slice" id="image" xlink:href="Pictures\Snapshot\Snapshot_92.png" style="clip-path:url(#cp);opacity:1;"/>
+                  <use x="2" y="2" id="frameshadow" xlink:href="#rect" style="fill:none;filter:url(#frameshadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="body_rect" style="fill:none;stroke:#ffffff;">
+                    <use id="rect" xlink:href="#def_frame" style="stroke-width:5;"/>
+                  </g>
+                  <use x="2" y="2" id="textshadow" xlink:href="#text" style="fill:#202020;fill-opacity:1;filter:url(#textshadowFilter);visibility:hidden;"/>
+                  <g id="body_text" style="fill:#ff0000;fill-opacity:1;stroke:none;">
+                    <text x="50%" y="83%" id="text" xml:space="preserve" style="dominant-baseline:text-after-edge;font-family:DK Buttered Toast;font-size:15;font-style:normal;font-weight:normal;text-anchor:middle;" transform="translate(0,0)">Waterfall</text>
+                  </g>
+                </svg>
+                <svg id="s_button04">
+                  <defs>
+                    <clipPath id="cp">
+                      <rect x="5%" y="5%" width="90%" height="72%" rx="20" id="def_frame"/>
+                    </clipPath>
+                    <filter id="frameshadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                    <filter id="textshadowFilter">
+                      <feGaussianBlur stdDeviation="2"/>
+                    </filter>
+                  </defs>
+                  <use xlink:href="#def_frame" style="fill:#101010;stroke:none;"/>
+                  <image x="5%" y="5%" width="90%" height="72%" preserveAspectRatio="xmidymid slice" id="image" xlink:href="Pictures\Snapshot\Snapshot_93.png" style="clip-path:url(#cp);opacity:1;"/>
+                  <use x="2" y="2" id="frameshadow" xlink:href="#rect" style="fill:none;filter:url(#frameshadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="body_rect" style="fill:none;stroke:#ffffff;">
+                    <use id="rect" xlink:href="#def_frame" style="stroke-width:5;"/>
+                  </g>
+                  <use x="2" y="2" id="textshadow" xlink:href="#text" style="fill:#202020;fill-opacity:1;filter:url(#textshadowFilter);visibility:hidden;"/>
+                  <g id="body_text" style="fill:#ff0000;fill-opacity:1;stroke:none;">
+                    <text x="50%" y="83%" id="text" xml:space="preserve" style="dominant-baseline:text-after-edge;font-family:DK Buttered Toast;font-size:15;font-style:normal;font-weight:normal;text-anchor:middle;" transform="translate(0,0)">Kanker veichle</text>
+                  </g>
+                </svg>
+                <svg id="s_button06">
+                  <defs>
+                    <clipPath id="cp">
+                      <rect x="5%" y="5%" width="90%" height="72%" rx="20" id="def_frame"/>
+                    </clipPath>
+                    <filter id="frameshadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                    <filter id="textshadowFilter">
+                      <feGaussianBlur stdDeviation="2"/>
+                    </filter>
+                  </defs>
+                  <use xlink:href="#def_frame" style="fill:#101010;stroke:none;"/>
+                  <image x="5%" y="5%" width="90%" height="72%" preserveAspectRatio="xmidymid slice" id="image" xlink:href="Pictures\Snapshot\Snapshot_94.png" style="clip-path:url(#cp);opacity:1;"/>
+                  <use x="2" y="2" id="frameshadow" xlink:href="#rect" style="fill:none;filter:url(#frameshadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="body_rect" style="fill:none;stroke:#ffffff;">
+                    <use id="rect" xlink:href="#def_frame" style="stroke-width:5;"/>
+                  </g>
+                  <use x="2" y="2" id="textshadow" xlink:href="#text" style="fill:#202020;fill-opacity:1;filter:url(#textshadowFilter);visibility:hidden;"/>
+                  <g id="body_text" style="fill:#ff0000;fill-opacity:1;stroke:none;">
+                    <text x="50%" y="83%" id="text" xml:space="preserve" style="dominant-baseline:text-after-edge;font-family:DK Buttered Toast;font-size:15;font-style:normal;font-weight:normal;text-anchor:middle;" transform="translate(0,0)">Bus to Justice</text>
+                  </g>
+                </svg>
+                <svg id="s_button07">
+                  <defs>
+                    <clipPath id="cp">
+                      <rect x="5%" y="5%" width="90%" height="72%" rx="20" id="def_frame"/>
+                    </clipPath>
+                    <filter id="frameshadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                    <filter id="textshadowFilter">
+                      <feGaussianBlur stdDeviation="2"/>
+                    </filter>
+                  </defs>
+                  <use xlink:href="#def_frame" style="fill:#101010;stroke:none;"/>
+                  <image x="5%" y="5%" width="90%" height="72%" preserveAspectRatio="xmidymid slice" id="image" xlink:href="Pictures\Snapshot\Snapshot_95.png" style="clip-path:url(#cp);opacity:1;"/>
+                  <use x="2" y="2" id="frameshadow" xlink:href="#rect" style="fill:none;filter:url(#frameshadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="body_rect" style="fill:none;stroke:#ffffff;">
+                    <use id="rect" xlink:href="#def_frame" style="stroke-width:5;"/>
+                  </g>
+                  <use x="2" y="2" id="textshadow" xlink:href="#text" style="fill:#202020;fill-opacity:1;filter:url(#textshadowFilter);visibility:hidden;"/>
+                  <g id="body_text" style="fill:#ff0000;fill-opacity:1;stroke:none;">
+                    <text x="50%" y="83%" id="text" xml:space="preserve" style="dominant-baseline:text-after-edge;font-family:DK Buttered Toast;font-size:15;font-style:normal;font-weight:normal;text-anchor:middle;" transform="translate(0,0)">Sleeping at the Park</text>
+                  </g>
+                </svg>
+                <svg id="s_button08">
+                  <defs>
+                    <clipPath id="cp">
+                      <rect x="5%" y="5%" width="90%" height="72%" rx="20" id="def_frame"/>
+                    </clipPath>
+                    <filter id="frameshadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                    <filter id="textshadowFilter">
+                      <feGaussianBlur stdDeviation="2"/>
+                    </filter>
+                  </defs>
+                  <use xlink:href="#def_frame" style="fill:#101010;stroke:none;"/>
+                  <image x="5%" y="5%" width="90%" height="72%" preserveAspectRatio="xmidymid slice" id="image" xlink:href="Pictures\Snapshot\Snapshot_96.png" style="clip-path:url(#cp);opacity:1;"/>
+                  <use x="2" y="2" id="frameshadow" xlink:href="#rect" style="fill:none;filter:url(#frameshadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="body_rect" style="fill:none;stroke:#ffffff;">
+                    <use id="rect" xlink:href="#def_frame" style="stroke-width:5;"/>
+                  </g>
+                  <use x="2" y="2" id="textshadow" xlink:href="#text" style="fill:#202020;fill-opacity:1;filter:url(#textshadowFilter);visibility:hidden;"/>
+                  <g id="body_text" style="fill:#ff0000;fill-opacity:1;stroke:none;">
+                    <text x="50%" y="83%" id="text" xml:space="preserve" style="dominant-baseline:text-after-edge;font-family:DK Buttered Toast;font-size:15;font-style:normal;font-weight:normal;text-anchor:middle;" transform="translate(0,0)">Mondo a GoGo</text>
+                  </g>
+                </svg>
+                <svg id="s_button01">
+                  <defs>
+                    <clipPath id="cp">
+                      <rect x="5%" y="5%" width="90%" height="72%" rx="20" id="def_frame"/>
+                    </clipPath>
+                    <filter id="frameshadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                    <filter id="textshadowFilter">
+                      <feGaussianBlur stdDeviation="2"/>
+                    </filter>
+                  </defs>
+                  <use xlink:href="#def_frame" style="fill:#101010;stroke:none;"/>
+                  <image x="5%" y="5%" width="90%" height="72%" preserveAspectRatio="xmidymid slice" id="image" xlink:href="Pictures\Snapshot\Snapshot_97.png" style="clip-path:url(#cp);opacity:1;"/>
+                  <use x="2" y="2" id="frameshadow" xlink:href="#rect" style="fill:none;filter:url(#frameshadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="body_rect" style="fill:none;stroke:#ffffff;">
+                    <use id="rect" xlink:href="#def_frame" style="stroke-width:5;"/>
+                  </g>
+                  <use x="2" y="2" id="textshadow" xlink:href="#text" style="fill:#202020;fill-opacity:1;filter:url(#textshadowFilter);visibility:hidden;"/>
+                  <g id="body_text" style="fill:#ff0000;fill-opacity:1;stroke:none;">
+                    <text x="50%" y="83%" id="text" xml:space="preserve" style="dominant-baseline:text-after-edge;font-family:DK Buttered Toast;font-size:15;font-style:normal;font-weight:normal;text-anchor:middle;" transform="translate(0,0)">Eddy's Brother</text>
+                  </g>
+                </svg>
+                <svg id="s_button05" viewBox="0 0 100 80">
+                  <defs>
+                    <linearGradient x1="50" y1="55" x2="50" y2="80" gradientUnits="userSpaceOnUse" id="gradient">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0;"/>
+                    </linearGradient>
+                  </defs>
+                  <path id="arrow1" style="fill:#ffffff;" d="M2,22 L33,1 C35,0,40,0,40,5 L40,15 L100,15 L94,25 L100,35 L40,35 L40,45 C40,50,35,50,33,49 L1,27 C0,26,0,24,2,22 z"/>
+                  <path id="arrow2" style="fill:url(#gradient) none;" d="M0,80 C0,79,1,78,2,77 L33,56 C35,55,40,55,40,60 L40,70 L100,70 L94,80 z"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="32" y="12" width="188" height="132" id="button02" xlink:href="#s_button02"/>
+                <use x="264" y="24" width="188" height="132" id="button03" xlink:href="#s_button03"/>
+                <use x="500" y="28" width="188" height="132" id="button04" xlink:href="#s_button04"/>
+                <use x="18" y="166" width="176" height="133" id="button06" xlink:href="#s_button06"/>
+                <use x="216" y="176" width="152" height="120" id="button07" xlink:href="#s_button07"/>
+                <use x="392" y="184" width="155" height="131" id="button08" xlink:href="#s_button08"/>
+                <use x="564" y="184" width="155" height="131" id="button01" xlink:href="#s_button01"/>
+                <use x="28" y="330" width="92" height="63" id="button05" xlink:href="#s_button05"/>
+              </g>
+            </svg>
+            <button id="button02" defSize="true" displayVideoFrame="false">
+              <action pgci="9" chapter="6"/>
+              <filename>frame-text.xml</filename>
+              <parameter name="stroke" normal="#ffffff" highlighted="#ff0000" selected="#ffff00"/>
+            </button>
+            <button id="button03" defSize="true" displayVideoFrame="false">
+              <action pgci="9" chapter="7"/>
+              <filename>frame-text.xml</filename>
+              <parameter name="stroke" normal="#ffffff" highlighted="#ff0000" selected="#ffff00"/>
+            </button>
+            <button id="button04" defSize="true" displayVideoFrame="false">
+              <action pgci="9" chapter="8"/>
+              <filename>frame-text.xml</filename>
+              <parameter name="stroke" normal="#ffffff" highlighted="#ff0000" selected="#ffff00"/>
+            </button>
+            <button id="button06" displayVideoFrame="false">
+              <action pgci="9" chapter="9"/>
+              <filename>frame-text.xml</filename>
+              <parameter name="stroke" normal="#ffffff" highlighted="#ff0000" selected="#ffff00"/>
+            </button>
+            <button id="button07" displayVideoFrame="false">
+              <action pgci="9" chapter="10"/>
+              <filename>frame-text.xml</filename>
+              <parameter name="stroke" normal="#ffffff" highlighted="#ff0000" selected="#ffff00"/>
+            </button>
+            <button id="button08" displayVideoFrame="false">
+              <action pgci="9" chapter="11"/>
+              <filename>frame-text.xml</filename>
+              <parameter name="stroke" normal="#ffffff" highlighted="#ff0000" selected="#ffff00"/>
+            </button>
+            <button id="button01" displayVideoFrame="false">
+              <action pgci="9" chapter="12"/>
+              <filename>frame-text.xml</filename>
+              <parameter name="stroke" normal="#ffffff" highlighted="#ff0000" selected="#ffff00"/>
+            </button>
+            <button id="button05">
+              <action pgci="2"/>
+              <filename>arrow-mirror-left.xml</filename>
+              <parameter name="ac" normal="#ffffff" highlighted="#008000" selected="#ffff00"/>
+            </button>
+          </menu>
+        </vob>
+      </pgc>
+      <!--************** MENU 4 **************-->
+      <pgc>
+        <vob pause="inf">
+          <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="-1">
+            <svg width="720" height="405">
+              <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
+              <image width="720" height="405" preserveAspectRatio="none" id="background" xlink:href="Pictures\Snapshot\Snapshot_149.png"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient1">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#000000;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient2">
+                      <stop id="st1" style="stop-color:#000000;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient3">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.1;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.7;"/>
+                    </linearGradient>
+                  </defs>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="20" ry="20" id="pill" style="fill:#a8518a;fill-opacity:1;stroke:url(#gradient2) none;stroke-width:2;"/>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="15" ry="15" id="light" style="fill:url(#gradient1) none;"/>
+                  <rect x="6%" y="2%" width="88%" height="46%" rx="10" ry="10" id="reflex" style="fill:url(#gradient3) none;"/>
+                  <text x="50%" y="50%" id="text" xml:space="preserve" style="dominant-baseline:middle;fill:#000000;font-family:DK Buttered Toast;font-size:20;font-style:normal;font-weight:normal;stroke:url(#gradiente2) none;stroke-opacity:0.8;stroke-width:1;text-anchor:middle;">Bonus Episodes</text>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient1">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#000000;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient2">
+                      <stop id="st1" style="stop-color:#000000;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient3">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.1;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.7;"/>
+                    </linearGradient>
+                  </defs>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="20" ry="20" id="pill" style="fill:#a8518a;fill-opacity:1;stroke:url(#gradient2) none;stroke-width:2;"/>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="15" ry="15" id="light" style="fill:url(#gradient1) none;"/>
+                  <rect x="6%" y="2%" width="88%" height="46%" rx="10" ry="10" id="reflex" style="fill:url(#gradient3) none;"/>
+                  <text x="50%" y="50%" id="text" xml:space="preserve" style="dominant-baseline:middle;fill:#000000;font-family:DK Buttered Toast;font-size:20;font-style:normal;font-weight:normal;stroke:url(#gradiente2) none;stroke-opacity:0.8;stroke-width:1;text-anchor:middle;">The Incredible Shrinking Day<tbreak/>Music Video</text>
+                </svg>
+                <svg id="s_button03" viewBox="0 0 128 128">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#home" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:visible;"/>
+                  <g id="main" style="fill:#006680;">
+                    <g id="home" transform="matrix(0.368667,0,0,0.368667,-39.728,-113.974)">
+                      <path d="m374.937,485.157 l0,0 z m0,0 l-95.449,-84.5301 l-95.5039,84.5667 l0,120.841 c0,3.12083,2.52183,5.62434,5.64267,5.62434 l59.6877,0 l0,-52.9824 c0,-3.12085,2.50351,-5.64266,5.62434,-5.64266 l49.0436,0 c3.12081,0,5.62434,2.52183,5.62434,5.64266 l0,52.9824 l59.706,0 c3.12083,0,5.62436,-2.5035,5.62435,-5.62434 l0,-120.878 z m-190.953,0.0366 l0,0 z"/>
+                      <path d="m278.934,354.366 l-135.452,119.937 l14.2684,16.0969 l121.738,-107.802 l121.71,107.802 l14.2407,-16.0969 l-135.425,-119.937 l-0.5264,0.60952 l-0.55411,-0.60952 z"/>
+                      <path d="m183.984,371.631 l34.3376,0 l-0.29922,20.3377 l-34.0383,30.7499 l0,-51.0876 z"/>
+                    </g>
+                  </g>
+                </svg>
+                <svg id="s_button04">
+                  <defs>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient1">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#000000;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient2">
+                      <stop id="st1" style="stop-color:#000000;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient3">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.1;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.7;"/>
+                    </linearGradient>
+                  </defs>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="20" ry="20" id="pill" style="fill:#a8518a;fill-opacity:1;stroke:url(#gradient2) none;stroke-width:2;"/>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="15" ry="15" id="light" style="fill:url(#gradient1) none;"/>
+                  <rect x="6%" y="2%" width="88%" height="46%" rx="10" ry="10" id="reflex" style="fill:url(#gradient3) none;"/>
+                  <text x="50%" y="50%" id="text" xml:space="preserve" style="dominant-baseline:middle;fill:#000000;font-family:DK Buttered Toast;font-size:20;font-style:normal;font-weight:normal;stroke:url(#gradiente2) none;stroke-opacity:0.8;stroke-width:1;text-anchor:middle;">Sneek Peeks</text>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="92" y="200" width="187" height="89" id="button01" xlink:href="#s_button01"/>
+                <use x="328" y="88" width="294" height="89" id="button02" xlink:href="#s_button02"/>
+                <use x="72" y="324" width="70" height="55" id="button03" xlink:href="#s_button03"/>
+                <use x="380" y="200" width="187" height="89" id="button04" xlink:href="#s_button04"/>
+              </g>
+            </svg>
+            <button id="button01">
+              <action tsi="1" pgci="9"/>
+              <filename>pill2.xml</filename>
+              <parameter name="ct" normal="#000000" highlighted="#400080" selected="#ffffff"/>
+            </button>
+            <button id="button02">
+              <action pgci="5"/>
+              <filename>pill2.xml</filename>
+              <parameter name="ct" normal="#000000" highlighted="#400080" selected="#ffffff"/>
+            </button>
+            <button id="button03">
+              <action pgci="0"/>
+              <filename>home-v2.xml</filename>
+              <parameter name="fill" normal="#006680" highlighted="#0099c0" selected="#ffffff"/>
+            </button>
+            <button id="button04">
+              <action pgci="10"/>
+              <filename>pill2.xml</filename>
+              <parameter name="ct" normal="#000000" highlighted="#400080" selected="#ffffff"/>
+            </button>
+          </menu>
+        </vob>
+      </pgc>
+      <!--************** MENU 5 **************-->
+      <pgc>
+        <vob>
+          <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="-1">
+            <svg width="720" height="405">
+              <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="405" preserveAspectRatio="none" id="background" xlink:href="Videos\Ed, Edd n Eddy's Big Picture Show (Bonus Episodes Menu (Loop Extended).mp4"/>
+              <defs id="defs">
+                <svg id="s_button01" viewBox="0 0 84 54">
+                  <path id="shadow" style="fill:#505050;fill-opacity:1;" d="M0,26 L22,2 L22,16 L76,16 L76,36 L22,36 L22,50 z"/>
+                  <path id="arrowa" style="fill:#ff7f2a;fill-opacity:1;" d="M2,24 L24,0 L24,14 L78,14 L78,24 z"/>
+                  <path id="arrowb" style="fill:#d45500;fill-opacity:1;" d="M2,24 L78,24 L78,34 L24,34 L25,48 z"/>
+                  <path id="stroke" style="fill:none;stroke:#000000;stroke-linejoin:round;stroke-width:2;" d="M2,24 L24,0 L24,14 L78,14 L78,34 L24,34 L24,48 z"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient1">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#000000;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient2">
+                      <stop id="st1" style="stop-color:#000000;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient3">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.1;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.7;"/>
+                    </linearGradient>
+                  </defs>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="20" ry="20" id="pill" style="fill:#a8518a;fill-opacity:1;stroke:url(#gradient2) none;stroke-width:2;"/>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="15" ry="15" id="light" style="fill:url(#gradient1) none;"/>
+                  <rect x="6%" y="2%" width="88%" height="46%" rx="10" ry="10" id="reflex" style="fill:url(#gradient3) none;"/>
+                  <text x="50%" y="50%" id="text" xml:space="preserve" style="dominant-baseline:middle;fill:#000000;font-family:DK Buttered Toast;font-size:20;font-style:normal;font-weight:normal;stroke:url(#gradiente2) none;stroke-opacity:0.8;stroke-width:1;text-anchor:middle;">Read all about Ed</text>
+                </svg>
+                <svg id="s_button04">
+                  <defs>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient1">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#000000;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient2">
+                      <stop id="st1" style="stop-color:#000000;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient3">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.1;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.7;"/>
+                    </linearGradient>
+                  </defs>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="20" ry="20" id="pill" style="fill:#a8518a;fill-opacity:1;stroke:url(#gradient2) none;stroke-width:2;"/>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="15" ry="15" id="light" style="fill:url(#gradient1) none;"/>
+                  <rect x="6%" y="2%" width="88%" height="46%" rx="10" ry="10" id="reflex" style="fill:url(#gradient3) none;"/>
+                  <text x="50%" y="50%" id="text" xml:space="preserve" style="dominant-baseline:middle;fill:#000000;font-family:DK Buttered Toast;font-size:20;font-style:normal;font-weight:normal;stroke:url(#gradiente2) none;stroke-opacity:0.8;stroke-width:1;text-anchor:middle;">Scrambled Ed</text>
+                </svg>
+                <svg id="s_button05">
+                  <defs>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient1">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#000000;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient2">
+                      <stop id="st1" style="stop-color:#000000;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient3">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.1;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.7;"/>
+                    </linearGradient>
+                  </defs>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="20" ry="20" id="pill" style="fill:#a8518a;fill-opacity:1;stroke:url(#gradient2) none;stroke-width:2;"/>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="15" ry="15" id="light" style="fill:url(#gradient1) none;"/>
+                  <rect x="6%" y="2%" width="88%" height="46%" rx="10" ry="10" id="reflex" style="fill:url(#gradient3) none;"/>
+                  <text x="50%" y="50%" id="text" xml:space="preserve" style="dominant-baseline:middle;fill:#000000;font-family:DK Buttered Toast;font-size:20;font-style:normal;font-weight:normal;stroke:url(#gradiente2) none;stroke-opacity:0.8;stroke-width:1;text-anchor:middle;">This won't hurt an Ed</text>
+                </svg>
+                <svg id="s_button03">
+                  <defs>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient1">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#000000;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient2">
+                      <stop id="st1" style="stop-color:#000000;stop-opacity:0.5;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.5;"/>
+                    </linearGradient>
+                    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient3">
+                      <stop id="st1" style="stop-color:#ffffff;stop-opacity:0.1;"/>
+                      <stop offset="1" id="st2" style="stop-color:#ffffff;stop-opacity:0.7;"/>
+                    </linearGradient>
+                  </defs>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="20" ry="20" id="pill" style="fill:#a8518a;fill-opacity:1;stroke:url(#gradient2) none;stroke-width:2;"/>
+                  <rect x="2%" y="2%" width="96%" height="96%" rx="15" ry="15" id="light" style="fill:url(#gradient1) none;"/>
+                  <rect x="6%" y="2%" width="88%" height="46%" rx="10" ry="10" id="reflex" style="fill:url(#gradient3) none;"/>
+                  <text x="50%" y="50%" id="text" xml:space="preserve" style="dominant-baseline:middle;fill:#000000;font-family:DK Buttered Toast;font-size:20;font-style:normal;font-weight:normal;stroke:url(#gradiente2) none;stroke-opacity:0.8;stroke-width:1;text-anchor:middle;">Play All</text>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="44" y="324" width="117" height="70" id="button01" xlink:href="#s_button01"/>
+                <use x="448" y="96" width="191" height="51" id="button02" xlink:href="#s_button02"/>
+                <use x="472" y="172" width="160" height="51" id="button04" xlink:href="#s_button04"/>
+                <use x="440" y="236" width="221" height="51" id="button05" xlink:href="#s_button05"/>
+                <use x="436" y="24" width="221" height="51" id="button03" xlink:href="#s_button03"/>
+              </g>
+            </svg>
+            <button id="button03">
+              <action tsi="2" pgci="1" playAll="true"/>
+              <filename>pill2.xml</filename>
+              <parameter name="ct" normal="#000000" highlighted="#400080" selected="#ffffff"/>
+            </button>
+            <button id="button01">
+              <action pgci="6"/>
+              <filename>arrow3d-left.xml</filename>
+              <parameter name="sc" normal="#000000" highlighted="#505050" selected="#ffffff"/>
+            </button>
+            <button id="button02">
+              <action tsi="2" pgci="1"/>
+              <filename>pill2.xml</filename>
+              <parameter name="ct" normal="#000000" highlighted="#400080" selected="#ffffff"/>
+            </button>
+            <button id="button04">
+              <action tsi="2" pgci="3"/>
+              <filename>pill2.xml</filename>
+              <parameter name="ct" normal="#000000" highlighted="#400080" selected="#ffffff"/>
+            </button>
+            <button id="button05">
+              <action tsi="2" pgci="5"/>
+              <filename>pill2.xml</filename>
+              <parameter name="ct" normal="#000000" highlighted="#400080" selected="#ffffff"/>
+            </button>
+          </menu>
+        </vob>
+        <post>jump cell 1;</post>
+      </pgc>
+      <!--************** MENU 6 **************-->
+      <pgc>
+        <vob pause="inf">
+          <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="-1">
+            <svg width="720" height="405">
+              <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <circle cx="15" cy="50%" r="5" id="circle" style="fill:none;"/>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;fill-opacity:1;">
+                    <text x="30" y="50%" id="text" xml:space="preserve" style="dominant-baseline:middle;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:;">Inspector Gadget World tour</text>
+                  </g>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <circle cx="15" cy="50%" r="5" id="circle" style="fill:none;"/>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;fill-opacity:1;">
+                    <text x="30" y="50%" id="text" xml:space="preserve" style="dominant-baseline:middle;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:;">Ed, Edd n Eddy<tbreak/>
+                    </text>
+                  </g>
+                </svg>
+                <svg id="s_button03" viewBox="0 0 128 128">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#home" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:visible;"/>
+                  <g id="main" style="fill:#006680;">
+                    <g id="home" transform="matrix(0.368667,0,0,0.368667,-39.728,-113.974)">
+                      <path d="m374.937,485.157 l0,0 z m0,0 l-95.449,-84.5301 l-95.5039,84.5667 l0,120.841 c0,3.12083,2.52183,5.62434,5.64267,5.62434 l59.6877,0 l0,-52.9824 c0,-3.12085,2.50351,-5.64266,5.62434,-5.64266 l49.0436,0 c3.12081,0,5.62434,2.52183,5.62434,5.64266 l0,52.9824 l59.706,0 c3.12083,0,5.62436,-2.5035,5.62435,-5.62434 l0,-120.878 z m-190.953,0.0366 l0,0 z"/>
+                      <path d="m278.934,354.366 l-135.452,119.937 l14.2684,16.0969 l121.738,-107.802 l121.71,107.802 l14.2407,-16.0969 l-135.425,-119.937 l-0.5264,0.60952 l-0.55411,-0.60952 z"/>
+                      <path d="m183.984,371.631 l34.3376,0 l-0.29922,20.3377 l-34.0383,30.7499 l0,-51.0876 z"/>
+                    </g>
+                  </g>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="192" y="76" width="361" height="32" id="button01" xlink:href="#s_button01"/>
+                <use x="188" y="128" width="216" height="32" id="button02" xlink:href="#s_button02"/>
+                <use x="80" y="332" width="50" height="50" id="button03" xlink:href="#s_button03"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action pgci="1"/>
+              <filename>text-circle-v2.xml</filename>
+              <parameter name="circleFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action pgci="3"/>
+              <filename>text-circle-v2.xml</filename>
+              <parameter name="circleFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button03" defSize="true">
+              <action pgci="6"/>
+              <filename>home-v2.xml</filename>
+              <parameter name="fill" normal="#006680" highlighted="#0099c0" selected="#ffffff"/>
+            </button>
+          </menu>
+        </vob>
+      </pgc>
+    </menus>
+    <titles>
+      <video format="ntsc" aspect="16:9" widescreen="nopanscan"/>
+      <audio lang="EN"/>
+      <!--************** TITLE 1 **************-->
+      <pgc>
+        <vob file="Videos\Inspector Gadget World Tour Trailer.mp4" chapters="0:00,1:29">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <post>call last menu;</post>
+      </pgc>
+      <!--************** TITLE 2 **************-->
+      <pgc>
+        <vob file="Videos\Ed, Edd n Eddy Seven Seas DVD trailer (V2).mp4" chapters="0:00,0:58">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <post>call last menu;</post>
+      </pgc>
+      <!--************** TITLE 3 **************-->
+      <pgc>
+        <vob file="Videos\SSH Theater FP Logo (NEw VErsion).mp4" chapters="0:00">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <post>call last menu;</post>
+      </pgc>
+      <!--************** TITLE 4 **************-->
+      <pgc>
+        <vob file="Videos\Seven Seas DVD logo.mp4" chapters="0:00">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <vob file="Videos\Ed, Edd n Eddy's Big Picture Show (Stay Tuned V2).mp4" chapters="0:00">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <vob file="Videos\EEnE BPS Rating Warning.mp4" chapters="0:00">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <vob file="Videos\Disclaimer (Transisition).mp4" chapters="0:00">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <post>jump next title;</post>
+      </pgc>
+      <!--************** TITLE 5 **************-->
+      <pgc>
+        <vob file="E:\Ed, Edd n Eddy's Big Picture Show1.mp4" chapters="0:00,7:38.089,18:02.898,21:28.961,29:05.330,34:01.363,38:29.898,49:17.099,53:34.660,1:02:06.231,1:11:29,1:15:53.386,1:20:22,1:29:47">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <post>call last menu;</post>
+      </pgc>
+      <!--************** TITLE 6 **************-->
+      <pgc>
+        <vob file="Downloads\The Incredible Shrinking Day.mp4" chapters="0:00,2:23">
+          <video format="3"/>
+          <audio format="3"/>
+          <pad left="56" right="56"/>
+        </vob>
+        <post>call last menu;</post>
+      </pgc>
+    </titles>
+  </titleset>
+  <!--************** TITLESET 2 **************-->
+  <titleset>
+    <menus>
+      <video format="ntsc" aspect="16:9" widescreen="nopanscan"/>
+      <audio lang="EN"/>
+    </menus>
+    <titles>
+      <video format="ntsc" aspect="16:9" widescreen="nopanscan"/>
+      <audio lang="EN"/>
+      <!--************** TITLE 1 **************-->
+      <pgc>
+        <vob file="Videos\Ed, Edd n Eddy's Big Picture Show (Play Movie).mp4" chapters="0:00">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <post>jump title 2;</post>
+      </pgc>
+      <!--************** TITLE 2 **************-->
+      <pgc>
+        <vob file="Videos\EEnE BPS Rating Warning.mp4" chapters="0:00">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <vob file="Videos\Disclaimer (Transisition).mp4" chapters="0:00">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <post>jump titleset 1 title 2;</post>
+      </pgc>
+      <!--************** TITLE 3 **************-->
+      <pgc>
+        <vob file="Videos\Ed, Edd n Eddy's Big Picture Show (Scene Selection).mp4" chapters="0:00">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <post>call titleset 1 menu 2;</post>
+      </pgc>
+      <!--************** TITLE 4 **************-->
+      <pgc>
+        <vob file="Videos\Ed, Edd n Eddy's Big Picture Show (Extras Menu).mp4" chapters="0:00">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <post>call titleset 1 menu 4;</post>
+      </pgc>
+      <!--************** TITLE 5 **************-->
+      <pgc>
+        <vob file="Videos\Ed, Edd n Eddy's Big Picture Show (Bonus Episiodes Menu Beginning).mp4" chapters="0:00">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <post>call titleset 1 menu 5;</post>
+      </pgc>
+    </titles>
+  </titleset>
+  <!--************** TITLESET 3 **************-->
+  <titleset>
+    <menus>
+      <video format="ntsc" aspect="16:9" widescreen="nopanscan"/>
+      <audio lang="EN"/>
+    </menus>
+    <titles>
+      <video format="ntsc" aspect="16:9" widescreen="nopanscan"/>
+      <audio lang="EN"/>
+      <!--************** TITLE 1 **************-->
+      <pgc>
+        <vob file="Videos\Read All About Ed.mp4" chapters="0:00,11:45">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <post>call titleset 1 menu 5;</post>
+      </pgc>
+      <!--************** TITLE 2 **************-->
+      <pgc>
+        <vob file="Videos\Scrambled Ed.mp4" chapters="0:00,11:55">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <post>call titleset 1 menu 5;</post>
+      </pgc>
+      <!--************** TITLE 3 **************-->
+      <pgc>
+        <vob file="Videos\This won't hurt an ed.mp4" chapters="0:00,12:01">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <post>call titleset 1 menu 5;</post>
+      </pgc>
+    </titles>
+  </titleset>
+  <!--************** TITLESET 4 **************-->
+  <titleset>
+    <menus>
+      <video format="ntsc" aspect="16:9" widescreen="nopanscan"/>
+      <audio lang="EN"/>
+    </menus>
+    <titles>
+      <video format="ntsc" aspect="16:9" widescreen="nopanscan"/>
+      <audio lang="EN"/>
+      <!--************** TITLE 1 **************-->
+      <pgc>
+        <vob file="Videos\Seven Seas DVD V2 NaD Menu (Begin).mp4" chapters="0:00">
+          <video format="3"/>
+          <audio format="3"/>
+        </vob>
+        <post>call vmgm menu 1;</post>
+      </pgc>
+    </titles>
+  </titleset>
+</dvdstyler>
